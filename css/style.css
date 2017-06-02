@@ -1,11 +1,11 @@
 body{
     margin:0;
     padding:0;
+    background-color: antiquewhite;
 }
 #content,
 #footer,
 #header {
-    background-color: antiquewhite;
 }
 #header {
     min-height: 150px;
