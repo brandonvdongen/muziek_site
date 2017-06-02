@@ -1,8 +1,6 @@
 body{
     margin:0;
     padding:0;
-    height:100vh;
-    width:100vw;
 }
 #content,
 #footer,
@@ -21,8 +19,7 @@ body{
     position: sticky;
 }
 #content {
-    height:100%;
-    width:100%;
+    min-height: 500px;
 }
 #footer {
     min-height:50px;
