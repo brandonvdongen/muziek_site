@@ -6,9 +6,20 @@ body{
 #content,
 #footer,
 #header {
+    position: relative;
 }
 #header {
     min-height: 150px;
+}
+
+#banner-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100px;
+    width: 100px;
+    transform: translate(-50%, -50%) scale(5, 1);
+
 }
 
 #nav {
